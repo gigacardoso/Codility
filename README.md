@@ -1,10 +1,10 @@
-		*Daniel Cardoso*
-		================
-		**CODILITY**
-		------------
+*Daniel Cardoso*
+================
+**CODILITY**
+------------
 
-		*Last Updated: 03/03/2014*
-		*by: Daniel Cardoso*
+*Last Updated: 03/03/2014*
+*by: Daniel Cardoso*
 
 TRAIN
 =====
