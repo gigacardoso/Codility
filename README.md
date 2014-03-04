@@ -37,7 +37,7 @@ Write a function:
 ```java
 class Solution {
 	public int solution(int[] A);
-}```
+}´´´
 
 that, given a non-empty zero-indexed array A of N integers, returns the minimal difference that can be achieved.
 For example, given:
