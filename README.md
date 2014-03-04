@@ -11,7 +11,7 @@
 
 ##Time Complexity
 
-__TapeEquilibrium *[EASY]*_
+__TapeEquilibrium *[EASY]*__
 
 A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
 Any integer P, such that 0 < P < N, splits this tape into two non−empty parts: A[0], A[1], ..., A[P − 1] and A[P], A[P + 1], ..., A[N − 1].
@@ -37,16 +37,16 @@ Write a function:
 '''java
 class Solution {
 	public int solution(int[] A);
-}
+}'''
 
 that, given a non-empty zero-indexed array A of N integers, returns the minimal difference that can be achieved.
 For example, given:
 
->	A[0] = 3
->	A[1] = 1
->	A[2] = 2
->	A[3] = 4
->	A[4] = 3
+	A[0] = 3
+	A[1] = 1
+	A[2] = 2
+	A[3] = 4
+	A[4] = 3
  
 the function should return 1, as explained above.
 
@@ -74,9 +74,9 @@ that, given three integers X, Y and D, returns the minimal number of jumps from 
 
 For example, given:
 
->  X = 10
->  Y = 85
->  D = 30
+	X = 10
+	Y = 85
+	D = 30
   
 the function should return 3, because the frog will be positioned as follows:
 
@@ -106,10 +106,10 @@ Write a function:
 that, given a zero-indexed array A, returns the value of the missing element.
 For example, given array A such that:
 
->  A[0] = 2
->  A[1] = 3
->  A[2] = 1
->  A[3] = 5
+	A[0] = 2
+	A[1] = 3
+	A[2] = 1
+	A[3] = 5
   
 the function should return 4, as it is the missing element.
 
@@ -159,13 +159,13 @@ Array T describes a network of cities as follows:
 	
 For example, given the following array T consisting of seven elements (this array describes the network shown above) and K = 2:
 
->    T[0] = 1
->    T[1] = 2
->    T[2] = 3
->    T[3] = 3
->    T[4] = 2
->    T[5] = 1
->    T[6] = 4
+	T[0] = 1
+	T[1] = 2
+	T[2] = 3
+	T[3] = 3
+	T[4] = 2
+	T[5] = 1
+	T[6] = 4
 	
 the function should return a sequence [2, 0, 6, 3, 5], as explained above.
 
