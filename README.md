@@ -18,13 +18,13 @@ Any integer P, such that 0 < P < N, splits this tape into two non−empty parts:
 The difference between the two parts is the value of: |(A[0] + A[1] + ... + A[P − 1]) − (A[P] + A[P + 1] + ... + A[N − 1])|
 In other words, it is the absolute difference between the sum of the first part and the sum of the second part.
 For example, consider array A such that:
-
+```java
 	A[0] = 3
 	A[1] = 1
 	A[2] = 2
 	A[3] = 4
 	A[4] = 3  
-	
+```	
 We can split this tape in four places:
 
 +	P = 1, difference = |3 − 10| = 7 
@@ -37,17 +37,17 @@ Write a function:
 ```java
 class Solution {
 	public int solution(int[] A);
-}´´´
-
+}
+```
 that, given a non-empty zero-indexed array A of N integers, returns the minimal difference that can be achieved.
 For example, given:
-
+```java
 	A[0] = 3
 	A[1] = 1
 	A[2] = 2
 	A[3] = 4
 	A[4] = 3
- 
+``` 
 the function should return 1, as explained above.
 
 Assume that:
@@ -67,17 +67,17 @@ __FrogJmp *[EASY]*__
 A small frog wants to get to the other side of the road. The frog is currently located at position X and wants to get to a position greater than or equal to Y. The small frog always jumps a fixed distance, D.
 Count the minimal number of jumps that the small frog must perform to reach its target.
 Write a function:
-
->class Solution { public int solution(int X, int Y, int D); }
-
+```java
+class Solution { public int solution(int X, int Y, int D); }
+```
 that, given three integers X, Y and D, returns the minimal number of jumps from position X to a position equal to or greater than Y.
 
 For example, given:
-
+```java
 	X = 10
 	Y = 85
 	D = 30
-  
+``` 
 the function should return 3, because the frog will be positioned as follows:
 
 	+ after the first jump, at position 10 + 30 = 40
@@ -100,17 +100,17 @@ A zero-indexed array A consisting of N different integers is given. The array co
 Your goal is to find that missing element.
 
 Write a function:
-
->class Solution { public int solution(int[] A); }
-
+```java
+class Solution { public int solution(int[] A); }
+```
 that, given a zero-indexed array A, returns the value of the missing element.
 For example, given array A such that:
-
+```java
 	A[0] = 2
 	A[1] = 3
 	A[2] = 1
 	A[3] = 5
-  
+```
 the function should return 4, as it is the missing element.
 
 Assume that:
@@ -149,16 +149,16 @@ You start in city 2. From here you make the following trips:
 	
 The goal is to find the sequence of travel targets. In the above example we have the following travel targets: (2, 0, 6, 3, 5).
 Write a function:
-
->class Solution { public int[] solution(int K, int[] T); }
-
+```java
+class Solution { public int[] solution(int K, int[] T); }
+```
 that, given a non-empty zero-indexed array T consisting of N integers describing a network of N cities and N − 1 roads, returns the sequence of travel targets.
 Array T describes a network of cities as follows:
 
 	+ if T[P] = Q and P ≠ Q, then there is a direct road between cities P and Q.
 	
 For example, given the following array T consisting of seven elements (this array describes the network shown above) and K = 2:
-
+```java
 	T[0] = 1
 	T[1] = 2
 	T[2] = 3
@@ -166,7 +166,7 @@ For example, given the following array T consisting of seven elements (this arra
 	T[4] = 2
 	T[5] = 1
 	T[6] = 4
-	
+```
 the function should return a sequence [2, 0, 6, 3, 5], as explained above.
 
 Assume that:
