@@ -11,7 +11,6 @@
 
 ##Time Complexity
 
-
 __TapeEquilibrium *[EASY]*_
 
 A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
@@ -35,9 +34,10 @@ We can split this tape in four places:
 
 Write a function:
 
->class Solution {
->	public int solution(int[] A);
->}
+'''java
+class Solution {
+	public int solution(int[] A);
+}
 
 that, given a non-empty zero-indexed array A of N integers, returns the minimal difference that can be achieved.
 For example, given:
