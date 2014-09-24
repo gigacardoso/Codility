@@ -1,4 +1,4 @@
-__MaxCounters *[MEDIUM]*__			[Description](descriptions/maxcounters.md) / [Solution](Codility/src/train/counting_elements/MaxCounters.java)
+__MaxCounters *[MEDIUM]*__			[All](../README.md) / [Solution](../Codility/src/train/counting_elements/MaxCounters.java)
 
 You are given N counters, initially set to 0, and you have two possible operations on them:
 increase(X) − counter X is increased by 1,

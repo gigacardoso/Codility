@@ -1,4 +1,4 @@
-__MissingInteger *[MEDIUM]*__			[Description](descriptions/missingint.md) / [Solution](Codility/src/train/counting_elements/MissingInteger.java)
+__MissingInteger *[MEDIUM]*__			[All](../README.md) / [Solution](../Codility/src/train/counting_elements/MissingInteger.java)
 
 Write a function:
 ```java

@@ -1,4 +1,4 @@
-__Trip Planning *[HARD]*__			[Description](descriptions/tripplanning.md) / [Solution](Codility/src/test/TripPlanning.java)
+__Trip Planning *[HARD]*__			[All](../README.md) / [Solution](../Codility/src/test/TripPlanning.java)
 
 A country network consisting of N cities and N − 1 roads connecting them is given. Cities are labeled with distinct integers within the range [0..(N − 1)]. Roads connect cities in such a way that each distinct pair of cities is connected either by a direct road or through a path consisting of direct roads. There is exactly one way to reach any city from any other city.
 Starting out from city K, you have to plan a series of daily trips. Each day you want to visit a previously unvisited city in such a way that, on a route to that city, you will also pass through a maximal number of other unvisited cities (which will then be considered to have been visited). We say that the destination city is our daily travel target.

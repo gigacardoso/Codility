@@ -1,4 +1,4 @@
-__PassingCars *[EASY]*__			[Description](descriptions/passingcars.md) / [Solution](Codility/src/train/prefix_sums/PassingCars.java)
+__PassingCars *[EASY]*__			[All](../README.md) / [Solution](../Codility/src/train/prefix_sums/PassingCars.java)
 
 A non-empty zero-indexed array A consisting of N integers is given. The consecutive elements of array A represent consecutive cars on a road.
 Array A contains only 0s and/or 1s:
