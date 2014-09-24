@@ -10,6 +10,8 @@
 
 ##TRAIN
 
+![Bilby Stampede](http://www.advicio-servdesk.de/asd_wordpress_prod/wp-content/gallery/ci-logo/asd_harmony_600x600.jpg)
+
 * Time Complexity
     * TapeEquilibrium *[EASY]*		[Description](descriptions/tape.md) / [Solution](Codility/src/train/time_complexity/TapeEquilibrium.java)
     * FrogJmp *[EASY]*				[Description](descriptions/frog.md) / [Solution](Codility/src/train/time_complexity/FrogJmp.java)
