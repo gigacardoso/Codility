@@ -11,9 +11,12 @@
 #DONE
 #TRAIN
 ##Time Complexity
-__TapeEquilibrium *[EASY]*__  [description](descriptions/tape.md)
+__TapeEquilibrium *[EASY]*__  [Description](descriptions/tape.md) / [Solution](Codility/src/train/time_complexity/TapeEquilibrium.java)
+
 __FrogJmp *[EASY]*__
+
 __PermMissingElem *[EASY]*__
+
 
 #TRAIN
 
