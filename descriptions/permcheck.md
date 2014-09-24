@@ -1,4 +1,4 @@
-__PermCheck *[EASY]*__				[All](README.md) / [Solution](Codility/src/train/counting_elements/PermCheck.java)
+__PermCheck *[EASY]*__				[All](../README.md) / [Solution](../Codility/src/train/counting_elements/PermCheck.java)
 
 A non-empty zero-indexed array A consisting of N integers is given.
 A permutation is a sequence containing each element from 1 to N once, and only once.
